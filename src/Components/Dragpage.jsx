@@ -21,7 +21,7 @@ const Dragpage = () => {
             boxshadow:'4px 4px 10px 3px red'
         }}
         >
-            Drag Me  
+            Drag Me
          
         </motion.h1>
     </motion.div>
@@ -58,7 +58,7 @@ height:100vh;
     width:100px;
     background:#aea1ff;
     border-radius:10px;
-    // border:1px solid red;
+    border:1px solid red;
     box-shadow: 0 0 10px 3px #;
     font-size:1.5rem;
 }
