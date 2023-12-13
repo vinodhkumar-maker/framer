@@ -1,10 +1,16 @@
 import './App.css';
 import Dragpage from './Components/Dragpage';
+import ScollPage from './Components/ScollPage';
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Dragpage />
+      <ScollPage />
+     
+      
 
     </div>
   );
