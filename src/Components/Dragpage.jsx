@@ -47,6 +47,7 @@ height:100vh;
     justify-content:center;
     align-items:center;
     border:1px solid red;
+    padding:10px;
 
 }
 .drag{
