@@ -46,13 +46,11 @@ height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-
 }
 .drag{
     display:flex;
     justify-content:center;
     align-items:center;
-
     cursor:grab;
     height:100px;
     width:100px;
