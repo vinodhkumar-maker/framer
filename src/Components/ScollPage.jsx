@@ -22,7 +22,7 @@ const ScollPage = () => {
             when:'beforeChildren',
             staggerChildren:0.4,
             boxshadow:'4px 4px 10px 3px red',
-            loop:Infinity,
+            repeat:Infinity,
         }
        }
 
@@ -39,7 +39,8 @@ const ScollPage = () => {
                     duration:0.3,
                     yoyo:Infinity
                 }
-            }  
+            }
+  
         }>
             Biiitup
         </motion.p>
@@ -56,7 +57,8 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-
+// width:100%;
+// height:100vh;
 .container{
     height:200px;
     width:200px;
@@ -73,7 +75,10 @@ align-items:center;
         font-size:20px;
         font-weight:bold;
         cursor:pointer;
-    }   
+    }
+  
+   
+    
 }
 
 `

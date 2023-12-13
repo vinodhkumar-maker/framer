@@ -34,6 +34,30 @@ const RotatePage = () => {
             >
                 Biiit Up
             </motion.div>
+            <motion.div className='scroll'
+            initial={{
+                opacity:0,  
+                x:500,
+                y:-500,         
+             }}
+             animate={{
+                opacity:1,
+                x:0,
+                y:0,
+                opacity:1,
+                transition:{
+                    duration:2,
+                    damping:5,
+                    type:'spring',
+                    staggerChildren:1,
+                    repeat:Infinity,
+                    boxShadow:'4px 4px 10px 10px red',
+                }
+             }}
+            >
+                Biiit Up
+
+            </motion.div>
         </Container>
     )
 }
@@ -57,6 +81,21 @@ margin-bottom:10px;
     color:#fff;
     font-weight:bold;
     font-size:20px;
+    }
+    .scroll{
+        margin:80px;
+        width:200px;
+       
+    height:200px;
+    background-color:pink;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:red;
+    font-weight:bold;
+    font-size:20px;
+    box-shadow:1px 1px 8px blue;
     }
 }
 
