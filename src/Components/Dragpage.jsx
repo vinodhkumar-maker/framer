@@ -60,7 +60,6 @@ height:100vh;
     border-radius:10px;
     border:1px solid red;
     box-shadow: 0 0 10px 3px #;
-    font-size:1rem;
 }
 
 `
