@@ -46,7 +46,7 @@ margin-bottom:50px;
     display:flex;
     justify-content:center;
     align-items:center;
-    border:1px solid red;
+ 
     padding:10px;
 
 }
@@ -58,8 +58,7 @@ margin-bottom:50px;
     height:100px;
     width:100px;
     background:#aea1ff;
-    border-radius:10px;
-    border:1px solid red;
+    border-radius:10px;,
     box-shadow: 0 0 10px 3px #;
 }
 
